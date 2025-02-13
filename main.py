@@ -56,8 +56,8 @@ def extract_message_content(response: dict) -> str:
         return f"Error parsing response: {str(e)}"
 
 def main():
-    st.set_page_config(page_title="Langflow Chat Interface", layout="wide")
-    st.title("Langflow Chat Interface")
+    st.set_page_config(page_title="AlgOracle", layout="wide")
+    st.title("AlgOracle")
 
     # Sidebar for configuration
     with st.sidebar:
