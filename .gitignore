@@ -1,0 +1,37 @@
+# venv
+.venv/
+venv*/
+
+# env files
+.env
+
+# assets
+assets/
+
+# Archive files
+*.tgz
+*.tar.gz
+*.zip
+
+# Git files
+.git/
+
+# IDE files
+.vscode/
+
+# Compiled and temp files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+Thumbs.db
+*.bak
+*.swp, *.swo, *.swn
+
+# Logs and output files
+*.log
+output/
+.log
+
+# Jupyter checkpoint files
+.ipynb_checkpoints/
