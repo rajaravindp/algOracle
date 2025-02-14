@@ -1,6 +1,6 @@
 # AlgOracle 
 
-## AlgOracle is a Streamlit-based web application that interacts with a Langflow API to process financial data queries. Users can input a ticker token, and the app fetches relevant insights using a predefined flow. <br>
+### AlgOracle is a Streamlit-based web application that interacts with a Langflow API to process financial data queries. Users can input a ticker token, and the app fetches relevant insights using a predefined flow. <br>
 
 ### Features <br>
 User Input: Accepts a financial ticker or message. <br>
