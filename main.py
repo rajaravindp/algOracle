@@ -6,10 +6,10 @@ from dotenv import load_dotenv
 load_dotenv()
 
 BASE_API_URL = "https://api.langflow.astra.datastax.com"
-LANGFLOW_ID = "57291549-1ae2-40c1-af29-0a98acc70fb2"
-FLOW_ID = "0448fa51-0acb-48b3-86e2-ab3317f2ff8a"
+LANGFLOW_ID = "<YOUR-LANGFLOW-ID>"
+FLOW_ID = "<YOUR-FLOW-ID>"
+ENDPOINT = "<SET_YOUR_DESIRED_ENDPOINT_NAME>"
 APPLICATION_TOKEN = os.environ.get("APP_TOKEN")
-ENDPOINT = "algoracle" 
 
 
 def run_flow(message: str) -> dict:
